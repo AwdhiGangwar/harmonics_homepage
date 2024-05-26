@@ -1,0 +1,217 @@
+/* the styling of outer boxes */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  /* background-image: linear-gradient(-50deg, #441581, #140f1d); */
+  background-image: url("2d-graphic-colorful-wallpaper-with-grainy-gradients.jpg");
+  background-size: cover;
+}
+
+/*this is the navigation bar  */
+#navbar {
+  padding-top: 30px;
+  height: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+#image {
+  margin: 0px 650px 0px 60px;
+  padding: 20px 0px 0px 0px;
+  display: inline;
+}
+
+#navitem {
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 110%;
+}
+
+.navigators {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  font-family: sans-serif;
+  padding-top: 40px;
+}
+
+#hi:hover {
+  visibility: visible;
+}
+
+#button {
+  background-color: white;
+  color: black;
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
+}
+
+/* styling of the nav bar with DROPBOX nd the header */
+
+/* product downdrop box */
+#dropdown {
+  border-radius: 5px;
+  visibility: hidden;
+  height: 600px;
+  width: 30%;
+  background-color: whitesmoke;
+  position: absolute;
+  padding: 40px 900px 0px 50px;
+  margin: 20px 0px 0px -900px;
+  display: flex;
+  gap: 135%;
+}
+
+nav > div:nth-child(2) > div:hover {
+  #dropdown {
+    visibility: visible;
+  }
+}
+
+#features {
+  height: 550px;
+  width: 400px;
+}
+
+#trackingfeatures {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.tracks {
+  color: grey;
+  padding-right: 90px;
+  font-size: large;
+  text-align: justify;
+  width: 170px;
+}
+
+span {
+  color: black;
+  font-size: larger;
+}
+
+#industries {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 60px;
+}
+
+#indus {
+  font-size: x-large;
+  color: grey;
+}
+
+#dropdown2 {
+  border-radius: 5px;
+  visibility: hidden;
+  height: 600px;
+  width: 35%;
+  background-color: whitesmoke;
+  position: absolute;
+  padding: 40px 800px 0px 0px;
+  margin: 20px 0px 0px -850px;
+}
+
+nav > div:nth-child(2) > div:nth-child(2):hover {
+  #dropdown2 {
+    visibility: visible;
+  }
+}
+
+/* this is the middle box of the page */
+
+#content {
+  height: 880px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+  color: white;
+  padding-top: 95px;
+  margin-bottom: 0px;
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  font-family: sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: sans-serif;
+  margin-bottom: 40px;
+}
+
+#centerbutton {
+  background-color: white;
+  color: black;
+  width: 220px;
+  height: 60px;
+  margin-left: 43%;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+
+#getstarted {
+  width: 220px;
+  height: 60px;
+  padding-left: 25px;
+  padding-top: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+#get {
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+img {
+  margin-left: 30px;
+}
+
+.animate {
+  background-image: linear-gradient(
+    -40deg,
+    #18ffc3,
+    #6929c4,
+    #18ffc3,
+    #8578e6,
+    #18ffc3,
+    #18ffc3
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#animate {
+  height: 700px;
+  width: 100%;
+}
+
+#h4space {
+  margin: 5vh 10vw;
+  text-align: center;
+}
